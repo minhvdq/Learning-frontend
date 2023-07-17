@@ -1,0 +1,33 @@
+body{
+    background-color : #CB909B ;
+    text-align: center;
+    padding : 5px;
+}
+h1{
+    text-align: center;
+}
+button{
+    display: block;
+    margin : 10px;
+    
+
+}
+.contact {
+    position: fixed;
+    padding :50px;
+    height: 70px;
+    bottom : 0;
+    width : 100%;
+    left: 0;
+    background-color : #70333E;
+    text-align: center;
+}
+img {
+    width :40px;
+    height : 40px;
+}
+h2{
+    color : white;
+    text-align: center;
+}
+

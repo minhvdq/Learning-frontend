@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width">
+        <title>The Can Stores </title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <script src = "main.js" defer></script>
+    </head>
+    <body>
+        <div class = "headline">
+            <h1> <img src = "icons/bean_can.png" alt = "theBeanCan" height = "40px"/> THE CAN STORE <img src = "icons/bean_can.png" alt = "theBeanCan" height = "40px"/></h1>
+        </div>
+        <div class = "main">
+            <div id = "filtering" class = "filtering">
+                <label for = "cat">Choose a category: <br> </label>
+                <select id = "cat">
+                    <option class = "ALlOption"> All</option>
+                    <option class = "meat"> Meat</option>
+                    <option class = "soup"> Soup</option>
+                    <option class = "vegetables"> Vegetables</option>
+                </select> 
+                <br>
+                <form id = "searchItems">
+                    <label for = "items">Enter search term: <br> </label>
+                    <input type = "text" id = "items" class = "items"/>
+                </form>
+                <br>
+                <button class = "button" id = "button"> Filter Results</button>
+            </div>
+            <div class = "results">
+                <main>
+
+                </main>
+            </div> 
+        </div>
+    </body>
+</html>

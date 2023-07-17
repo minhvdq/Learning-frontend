@@ -1,0 +1,22 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: yellow;
+    font-size: 10px;
+}
+  
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: 'Cherry Swash', cursive;
+  margin: 0;
+  text-align: center;
+}
+h1{
+    font-size: 5em;
+    background-size: 48px 48px;
+}
+p, label, input, select, button, li {
+  font-size: 1.5rem;
+}
